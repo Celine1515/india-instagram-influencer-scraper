@@ -1,0 +1,6 @@
+fullName,username,url,category,followersCount,followerBracket,regionalFocus,engagementRate,avgLikes,avgComments,avgViews,country,platform,sample
+Sample Mumbai Fashion One,sample_mumbai_fashion_01,https://instagram.com/sample_mumbai_fashion_01,Fashion Influencer,182400,Mid-tier (100K–499.9K),Mumbai,0.0412,6200,180,240000,India,Instagram,true
+Sample Delhi Politics Two,sample_delhi_politics_02,https://instagram.com/sample_delhi_politics_02,Politics,1250000,Mega (1M+),Delhi,0.0188,21400,940,1100000,India,Instagram,true
+Sample Lucknow Food Three,sample_lucknow_food_03,https://instagram.com/sample_lucknow_food_03,Food Blogging,64000,Micro (10K–99.9K),Lucknow,0.0715,3800,210,92000,India,Instagram,true
+Sample Bengaluru Tech Four,sample_blr_tech_04,https://instagram.com/sample_blr_tech_04,Technology,9800,Nano (<10K),Bengaluru,0.0921,740,55,18000,India,Instagram,true
+Sample Jaipur Lifestyle Five,sample_jaipur_life_05,https://instagram.com/sample_jaipur_life_05,Lifestyle,510000,Macro (500K–999.9K),Jaipur,0.0334,14200,410,480000,India,Instagram,true

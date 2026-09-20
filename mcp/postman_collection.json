@@ -1,0 +1,24 @@
+{
+  "info": {
+    "name": "Indra India Instagram Influencer Scraper",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Calls Apify actor s4XRSzZuVqawl63Ih (social_developer/india-instagram-influencer-scraper-modashs)."
+  },
+  "item": [
+    {
+      "name": "Run influencer search",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" },
+          { "key": "Authorization", "value": "Bearer {{APIFY_TOKEN}}" }
+        ],
+        "url": "https://api.apify.com/v2/acts/s4XRSzZuVqawl63Ih/runs?waitForFinish=120",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"category\": \"Fashion Influencer\",\n  \"followerBracket\": \"Mid-tier (100K–499.9K)\",\n  \"regionalFocus\": \"Mumbai\",\n  \"avgViews\": \"200k_1m\",\n  \"sortBy\": \"sequential\",\n  \"resultsLimit\": 50\n}"
+        }
+      }
+    }
+  ]
+}

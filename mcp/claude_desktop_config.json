@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "indra-india-influencers": {
+      "type": "http",
+      "url": "https://mcp.apify.com/?tools=fetch-actor-details,social_developer/india-instagram-influencer-scraper-modashs"
+    }
+  }
+}

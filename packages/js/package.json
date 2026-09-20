@@ -1,0 +1,24 @@
+{
+  "name": "india-instagram-influencer-scraper",
+  "version": "1.0.0",
+  "description": "Client for Indra — India Instagram influencer database (Apify actor s4XRSzZuVqawl63Ih).",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "author": "Celine1515",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Celine1515/india-instagram-influencer-scraper.git"
+  },
+  "homepage": "https://celine1515.github.io/india-instagram-influencer-scraper/",
+  "keywords": [
+    "instagram",
+    "influencer",
+    "india",
+    "apify",
+    "scraper"
+  ],
+  "dependencies": {
+    "apify-client": "^2.12.0"
+  }
+}

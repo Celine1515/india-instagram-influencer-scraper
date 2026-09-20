@@ -1,0 +1,47 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Indra India Instagram Influencer Scraper",
+    "version": "1.1.0",
+    "description": "Search 2.4M+ Indian Instagram creators. Canonical actor social_developer/india-instagram-influencer-scraper-modashs (s4XRSzZuVqawl63Ih).",
+    "contact": { "name": "Celine1515", "url": "https://github.com/Celine1515" }
+  },
+  "servers": [{ "url": "https://api.apify.com/v2" }],
+  "paths": {
+    "/acts/s4XRSzZuVqawl63Ih/runs": {
+      "post": {
+        "operationId": "runIndiaInfluencerScraper",
+        "summary": "Run the India Instagram influencer scraper",
+        "parameters": [
+          { "name": "token", "in": "query", "required": true, "schema": { "type": "string" } },
+          { "name": "waitForFinish", "in": "query", "schema": { "type": "integer", "default": 120 } }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/Input" }
+            }
+          }
+        },
+        "responses": { "201": { "description": "Run started" } }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Input": {
+        "type": "object",
+        "properties": {
+          "category": { "type": "string" },
+          "followerBracket": { "type": "string" },
+          "regionalFocus": { "type": "string" },
+          "avgViews": { "type": "string" },
+          "searchQuery": { "type": "string" },
+          "sortBy": { "type": "string", "default": "sequential" },
+          "resultsLimit": { "type": "integer", "default": 100 }
+        }
+      }
+    }
+  }
+}
