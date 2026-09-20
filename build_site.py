@@ -164,7 +164,7 @@ def page(filename, title, description, body, canonical=None, extra_jsonld=""):
   <meta name="twitter:image" content="{OG}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600&family=Source+Serif+4:wght@500;700&display=swap">
-  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/site.css?v=3">
   <script type="application/ld+json">
   {jsonld_software(description, url)}
   </script>{extra}
@@ -201,7 +201,7 @@ def page(filename, title, description, body, canonical=None, extra_jsonld=""):
     <a href="sample/sample-influencers.csv">Sample CSV</a>
   </div>
   </footer>
-  <script src="assets/site.js"></script>
+  <script src="assets/site.js?v=3"></script>
 </body>
 </html>
 """
