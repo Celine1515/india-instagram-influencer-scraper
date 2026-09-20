@@ -1,0 +1,9 @@
+/* TEAM */
+Publisher: Celine1515
+GitHub: https://github.com/Celine1515
+Product: Indra India Instagram influencer scraper
+
+/* SITE */
+Standards: HTML5, schema.org SoftwareApplication + FAQPage
+Doctype: HTML5
+Actor: s4XRSzZuVqawl63Ih
